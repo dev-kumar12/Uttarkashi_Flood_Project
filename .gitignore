@@ -1,0 +1,37 @@
+# --- Big GIS data we won't push to GitHub ---
+01_Raw_Data/
+02_Processed_Rasters/
+04_Final_Map/*.tif
+
+# Common raster formats
+*.tif
+*.tiff
+*.img
+*.jp2
+*.asc
+*.bil
+*.vrt
+*.ovr
+*.aux
+
+# Shapefile and geodatabase (usually large)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+*.qix
+*.gpkg
+*.gdb
+*.mdb
+
+# Archives/backups
+*.zip
+*.7z
+*.rar
+
+# IDE / system
+.DS_Store
+Thumbs.db
